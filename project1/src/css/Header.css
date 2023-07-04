@@ -1,0 +1,18 @@
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+a.active {
+    background: deepskyblue;
+}
+.navbar a {
+    padding: 5px;
+}
+.container{
+    z-index: 1;
+    top: 180px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
