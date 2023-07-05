@@ -3,7 +3,7 @@ body {
   }
   
   .sidenav {
-    width: 130px;
+    width: 180px;
     position: fixed;
     z-index: 1;
     top: 180px;
@@ -16,7 +16,7 @@ body {
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: #2196F3;
     display: block;
   }

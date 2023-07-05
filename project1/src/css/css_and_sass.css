@@ -1,0 +1,15 @@
+.cssBlock span{
+    display: block;
+    text-align: left;
+    padding-left: 60px;
+    font-size:13px;
+}
+.SassBlock span{
+    display: block;
+    text-align: left;
+    padding-left: 60px;
+    font-size:13px;
+}
+.cssBlock h3{
+    padding-left: 60px;
+}
