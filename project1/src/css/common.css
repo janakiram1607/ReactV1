@@ -5,3 +5,12 @@
     height: auto;
     padding-bottom: 20px;
 }
+span{
+    display: block;
+    text-align: left;
+    padding-left: 60px;
+    font-size:13px;
+}
+.main h3{
+    padding-left: 50px;
+}

@@ -17,7 +17,6 @@ import List from './List';
 import Redux from './Redux';
 import State from './State';
 import SendingMail from './SendingMail';
-import Class1 from './Class1';
 class App extends Component {
   render() {
     return (
@@ -28,7 +27,7 @@ class App extends Component {
            <Routes>
                  <Route exact path='/' element={< Summary />}></Route>
                  <Route exact path='/class' element={< Class />}></Route>
-                 <Route exact path='/props' element={< Props />}></Route>
+                 <Route exact path='/props' element={< Props parent={`App`}/>}></Route>
                  <Route exact path='/events' element={< Events />}></Route>
                  <Route exact path='/props' element={< Props />}></Route>
                  <Route exact path='/bootstrap' element={< Bootstrap />}></Route>
