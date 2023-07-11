@@ -18,9 +18,6 @@ class State extends Component{
         super();
         this.state = {initialVal:"Hello Welcome", count:0};
     }
-    /* ChangeVal = ()=>{
-       this.setState({initialVal:"Thanks for clicking"})
-    } */
     render(){
         const module = window.location.pathname.replace(/\//g, "").toUpperCase();
         return (

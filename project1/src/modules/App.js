@@ -17,6 +17,8 @@ import List from './List';
 import Redux from './Redux';
 import State from './State';
 import SendingMail from './SendingMail';
+import OtherTopic from './OtherTopic';
+import LifeCycle from './LifeCycle';
 class App extends Component {
   render() {
     return (
@@ -41,6 +43,8 @@ class App extends Component {
                  <Route exact path='/state' element={< State />}></Route>
                  <Route exact path='/hook' element={< Hook />}></Route>
                  <Route exact path='/sendingmail' element={< SendingMail />}></Route>
+                 <Route exact path='/othertopic' element={< OtherTopic />}></Route>
+                 <Route exact path='/lifecycle' element={< LifeCycle />}></Route>
           </Routes>
           </div>
        </Router>

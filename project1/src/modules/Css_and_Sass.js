@@ -1,5 +1,6 @@
 import '../css/css_and_sass.css';
 import '../css/common.css';
+import styles from '../css/common.module.css';
 function Css_and_Sass(){
     const module = window.location.pathname.replace(/\//g, "").toUpperCase();
     const insytle = {
@@ -20,7 +21,7 @@ function Css_and_Sass(){
                     </span>
                 </div>
                 <div className='SassBlock'>
-                    <h4 style={insytle}>Advantage of Sass</h4>
+                    <h4 className={styles.heading}>Advantage of Sass</h4>
                     <span>
                         <li>Reusable</li>
                         <li>Time saving</li>

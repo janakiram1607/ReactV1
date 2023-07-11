@@ -19,7 +19,8 @@ function Sidebar(){
                     <li><Link to="/redux">Redux</Link></li>
                     <li><Link to="/sendingmail">SendingMail</Link></li>
                     <li><Link to="/state">State</Link></li> 
-                    <li><Link to="/summary">Summary</Link></li> 
+                    <li><Link to="/othertopic">OtherTopic</Link></li> 
+                    <li><Link to="/lifecycle">LifeCycle</Link></li> 
                     </ul>
                 </div>
         </div>
