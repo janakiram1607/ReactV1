@@ -5,8 +5,9 @@ function Sidebar(){
         <div>
             <div class="sidenav">
                 <ul className="App-header">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/class">Class</Link></li>
+                    <li><Link to="/" >Home</Link></li>
+                    <li><Link to="/class" >Class</Link></li>
+                    <li><Link to="/bootstrap" >Bootstrap</Link></li>
                     <li><Link to="/crud">Crud</Link></li>
                     <li><Link to="/css_and_sass">Css_and_Sass</Link></li>
                     <li><Link to="/effects">Effect</Link></li> 

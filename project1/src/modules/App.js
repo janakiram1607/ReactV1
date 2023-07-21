@@ -19,6 +19,7 @@ import State from './State';
 import SendingMail from './SendingMail';
 import OtherTopic from './OtherTopic';
 import LifeCycle from './LifeCycle';
+import NotFound from './NotFound';
 class App extends Component {
   render() {
     return (
@@ -45,6 +46,7 @@ class App extends Component {
                  <Route exact path='/sendingmail' element={< SendingMail />}></Route>
                  <Route exact path='/othertopic' element={< OtherTopic />}></Route>
                  <Route exact path='/lifecycle' element={< LifeCycle />}></Route>
+                 <Route Component={<NotFound/>}></Route>
           </Routes>
           </div>
        </Router>
